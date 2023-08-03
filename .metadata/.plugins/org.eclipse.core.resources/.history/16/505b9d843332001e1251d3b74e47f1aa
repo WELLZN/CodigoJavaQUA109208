@@ -1,0 +1,26 @@
+package principal;
+
+import java.util.Scanner;
+
+public class EntradaDeDados {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner (System.in);
+		final double PI = 3.1415;
+		
+
+			String nome;
+
+			System.out.println("Por favor, Digite seu nome: ");
+			//leitura de dados do tipo string (conjunto de caract)
+		
+			nome= leia.nextLine();
+			
+			System.out.println("O nome digitado foi: " +nome );
+			
+			leia.close();
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package principal;
+
+import java.util.Scanner;
+import javafx.application.Application
+
+public class EntradaDeDados {
+
+	public static void main(String[] args, Object idade) {
+		
+		Scanner leia = new Scanner (System.in);
+		final double PI = 3.1415;
+		
+
+			String nome;
+		    Object Int = idade;
+			double altura ;
+				
+			System.out.println("Por favor, Digite seu nome: ");
+			//leitura de dados do tipo string (conjunto de caract)
+		
+			nome= leia.nextLine();
+			System.out.println("digite a sua idade :" );
+			//leitura de dados do tipo string (conjunto de caract)
+			
+			idade = leia.nextInt ();
+			
+			System.out.println("Digite a sua altura: ");
+			//leitura de dados do tipo string (conjunto de caract)
+			altura = leia.nextDouble();
+			
+			System.out.println("O nome digitado foi: " +nome );
+			System.out.println("O idade digitada foi: " +idade );
+			
+			leia.close();
+
+	}
+
+}

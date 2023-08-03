@@ -1,0 +1,16 @@
+package principal;
+
+public class atividade01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int numero1= 10;
+double numero2= 20;
+char opcao= "s"
+String mensagem = "boa tarde"
+
+sistem.out.println(numero1);
+sistem.out.println(numero2);
+	}
+
+}
